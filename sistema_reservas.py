@@ -46,7 +46,7 @@ class Hotel:
                 print(f"Habitación {h.numero} - {h.tipo} - ${h.precio}")
 
 
-# -------- Programa principal --------
+#  Programa escencial 
 
 hotel = Hotel("Hotel Amazonía")
 
@@ -62,3 +62,4 @@ reserva1 = Reserva("Juan Pérez", habitacion1)
 reserva1.confirmar_reserva()
 
 hotel.mostrar_habitaciones_disponibles()
+
